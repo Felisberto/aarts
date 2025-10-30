@@ -32,7 +32,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold font-headline text-primary tracking-tight">
               Momentos
             </h2>
-            <Separator className="mt-2 w-1/4 bg-primary/20 h-0.5" />
+            <Separator className="mt-2 w-full bg-primary/20 h-0.5" />
           </div>
           <Carousel
             opts={{
