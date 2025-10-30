@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "milky",
+      "description": "Digital artwork by Milky",
+      "imageUrl": "/images/assets_01.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-milky",
+      "description": "Large view of digital artwork by Milky",
+      "imageUrl": "/images/assets_01.jpg",
+      "imageHint": "digital art"
+    }
+  ]
+}
