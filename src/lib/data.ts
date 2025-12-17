@@ -39,6 +39,16 @@ export const artists: Artist[] = [
     date: '2025-12-08',
     description: 'Esther mandou essa fofura para mim, então, muito obrigado pelo carinho esther ❤️',
     socialUrl: 'https://www.tiktok.com/@esther28231',
+  },
+  {
+    id: '4',
+    name: 'angen_luz',
+    style: 'Digital Art',
+    imageSeed: 'angen_luz_2',
+    date: '2025-11-21',
+    quote: 'felis após receber fanart de seguidores 🩷',
+    description: 'Mais uma arte feita pela luz, imparável, muito obrigado de coração, é incrível receber essa obra prima ❤️🥺',
+    socialUrl: 'https://www.tiktok.com/@angen_luz2',
   }
 ];
 
