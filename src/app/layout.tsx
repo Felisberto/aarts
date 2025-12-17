@@ -6,8 +6,8 @@ import Header from '@/components/header'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Felarts Gallery',
-  description: 'An art gallery',
+  title: 'Moments',
+  description: 'Art gallery in moments',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
