@@ -41,7 +41,7 @@ export default function ArtistProfileModal({ artist, isOpen, onOpenChange }: Art
               {image ? (
                 <Image
                   src={image.imageUrl}
-                  alt={image.description}
+                  alt={image.description || 'Artwork'}
                   data-ai-hint={image.imageHint}
                   fill
                   className="object-contain"
@@ -66,6 +66,11 @@ export default function ArtistProfileModal({ artist, isOpen, onOpenChange }: Art
                 <DialogDescription className="text-sm text-muted-foreground">
                   {formattedDate}
                 </DialogDescription>
+                {artist.quote && (
+                  <p className="text-sm italic text-foreground/70 pt-2 text-center sm:text-left">
+                    "{artist.quote}"
+                  </p>
+                )}
               </DialogHeader>
             </div>
             <div className="px-6 pb-6 flex-grow">
@@ -81,3 +86,4 @@ export default function ArtistProfileModal({ artist, isOpen, onOpenChange }: Art
     </Dialog>
   );
 }
+
