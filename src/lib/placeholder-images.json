@@ -23,6 +23,18 @@
       "description": "Large view of digital artwork by angen_luz",
       "imageUrl": "/images/assets_02.jpg",
       "imageHint": "digital art"
+    },
+    {
+      "id": "esther",
+      "description": "Physical artwork by esther",
+      "imageUrl": "/images/assets_03.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-esther",
+      "description": "Large view of digital artwork by esther",
+      "imageUrl": "/images/assets_03.jpg",
+      "imageHint": "digital art"
     }
   ]
 }
