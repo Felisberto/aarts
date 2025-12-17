@@ -45,7 +45,7 @@ export const artists: Artist[] = [
     name: 'angen_luz',
     style: 'Digital Art',
     imageSeed: 'angen_luz_2',
-    date: '2025-11-21',
+    date: '2025-12-15',
     quote: 'felis após receber fanart de seguidores 🩷',
     description: 'Mais uma arte feita pela luz, imparável, muito obrigado de coração, é incrível receber essa obra prima ❤️🥺',
     socialUrl: 'https://www.tiktok.com/@angen_luz2',
