@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "milky",
+      "description": "Digital artwork by Milky",
+      "imageUrl": "/images/assets_01.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-milky",
+      "description": "Large view of digital artwork by Milky",
+      "imageUrl": "/images/assets_01.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "angen_luz",
+      "description": "Digital artwork by angen_luz",
+      "imageUrl": "/images/assets_02.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-angen_luz",
+      "description": "Large view of digital artwork by angen_luz",
+      "imageUrl": "/images/assets_02.jpg",
+      "imageHint": "digital art"
+    }
+  ]
+}
