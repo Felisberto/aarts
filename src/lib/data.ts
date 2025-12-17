@@ -14,7 +14,7 @@ export const artists: Artist[] = [
   {
     id: '1',
     name: 'Milky',
-    style: 'Physic Art',
+    style: 'Physical Art',
     imageSeed: 'milky',
     date: '2025-09-11',
     quote: 'Atulemado',
@@ -30,6 +30,15 @@ export const artists: Artist[] = [
     quote: 'Felis no dia menos afeminado',
     description: 'Feito pela luz de mim de um jeito diferente, agradeço de coração mas eu não sou um femboy 😠😂❤️',
     socialUrl: 'https://www.tiktok.com/@angen_luz2',
+  },
+  {
+    id: '3',
+    name: '☆~♡esther♡~☆',
+    style: 'Physical Art',
+    imageSeed: 'esther',
+    date: '2025-12-08',
+    description: 'Esther mandou essa fofura para mim, então, muito obrigado pelo carinho esther ❤️',
+    socialUrl: 'https://www.tiktok.com/@esther28231',
   }
 ];
 
