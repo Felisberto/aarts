@@ -1,15 +1,15 @@
 
 import type { Artist } from '@/lib/data';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 type ArtistCardProps = {
   artist: Artist;
-  onArtistClick: (artist: Artist) => void;
 };
 
-export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
+export default function ArtistCard({ artist }: ArtistCardProps) {
   const image = PlaceHolderImages.find(img => img.id === artist.imageSeed);
   const formattedDate = new Date(artist.date).toLocaleDateString('pt-BR', {
     year: 'numeric',
@@ -18,17 +18,15 @@ export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
   });
 
   return (
-    <div
-      className="transition-transform duration-300 ease-in-out hover:scale-105 relative hover:z-10 cursor-pointer"
-      onClick={() => onArtistClick(artist)}
-    >
+    <div className="group">
       <Card className="overflow-hidden bg-card border-border shadow-lg h-full flex flex-col">
         <CardContent className="p-4 flex flex-col flex-grow">
           <div className="text-center mb-4">
-              <span className="text-xl font-bold font-headline text-primary cursor-pointer relative inline-block group">
+            <Link href={artist.socialUrl || '#'} target="_blank" rel="noopener noreferrer">
+              <span className="text-xl font-bold font-headline text-primary hover:text-primary/80 hover:underline transition-colors cursor-pointer">
                 {artist.name}
-                <span className="absolute bottom-0 left-0 h-0.5 bg-primary w-0 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </span>
+            </Link>
             <p className="text-xs text-muted-foreground">{formattedDate}</p>
           </div>
 
@@ -38,15 +36,17 @@ export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
             </div>
           )}
 
-          <div className="relative rounded-lg overflow-hidden shadow-lg aspect-[3/4] mb-4">
+          <div className="aspect-[3/4] relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             {image ? (
-              <Image
-                src={image.imageUrl}
-                alt={image.description || 'Artwork'}
-                data-ai-hint={image.imageHint}
-                fill
-                className="object-cover"
-              />
+              <Link href={`/artist/${artist.id}`}>
+                <Image
+                  src={image.imageUrl}
+                  alt={image.description || 'Artwork'}
+                  data-ai-hint={image.imageHint}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </Link>
             ) : (
               <div className="w-full h-full bg-muted flex items-center justify-center">
                 <span className="text-sm text-muted-foreground">Image not found</span>
@@ -54,7 +54,7 @@ export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
             )}
           </div>
           
-          <div className="text-center flex-grow">
+          <div className="mt-4 text-center flex-grow">
             <p className="text-sm text-foreground/80 line-clamp-4">
               {artist.description || artist.style}
             </p>
