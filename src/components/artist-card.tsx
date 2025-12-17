@@ -31,14 +31,21 @@ export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
               </span>
             <p className="text-xs text-muted-foreground">{formattedDate}</p>
           </div>
-          <div className="relative rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
+
+          {artist.quote && (
+            <div className="text-center mb-4 flex-grow-0">
+              <p className="text-sm italic text-foreground/70">"{artist.quote}"</p>
+            </div>
+          )}
+
+          <div className="relative rounded-lg overflow-hidden shadow-lg aspect-[3/4] mb-4">
             {image ? (
               <Image
                 src={image.imageUrl}
-                alt={image.description}
+                alt={image.description || 'Artwork'}
                 data-ai-hint={image.imageHint}
                 fill
-                className="object-contain w-full h-auto"
+                className="object-cover"
               />
             ) : (
               <div className="w-full h-full bg-muted flex items-center justify-center">
@@ -46,13 +53,16 @@ export default function ArtistCard({ artist, onArtistClick }: ArtistCardProps) {
               </div>
             )}
           </div>
-          <div className="mt-4 text-center flex-grow">
-            <p className="text-sm text-foreground/80 line-clamp-3">
+          
+          <div className="text-center flex-grow">
+            <p className="text-sm text-foreground/80 line-clamp-4">
               {artist.description || artist.style}
             </p>
           </div>
+
         </CardContent>
       </Card>
     </div>
   );
 }
+
