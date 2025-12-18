@@ -58,7 +58,7 @@ export const artists: Artist[] = [
     date: '2025-12-15',
     quote: 'Nos olhos dele, a borboleta azul vira silêncio em forma de esperança.',
     description: 'Uma arte incrível feita pelo grande xerlok, meu mano, muito obrigado, não tenho palavras para agradeçer por essa obra ❤️',
-    socialUrl: '',
+    socialUrl: 'https://www.instagram.com/ins.kevin',
   }
 ];
 
