@@ -49,6 +49,16 @@ export const artists: Artist[] = [
     quote: 'felis após receber fanart de seguidores 🩷',
     description: 'Mais uma arte feita pela luz, imparável, muito obrigado de coração, é incrível receber essa obra prima ❤️🥺',
     socialUrl: 'https://www.tiktok.com/@angen_luz2',
+  },
+  {
+    id: '5',
+    name: '_xerlok_',
+    style: 'Digital Art',
+    imageSeed: 'xerlok',
+    date: '2025-12-15',
+    quote: 'Nos olhos dele, a borboleta azul vira silêncio em forma de esperança.',
+    description: 'Uma arte incrível feita pelo grande xerlok, meu mano, muito obrigado, não tenho palavras para agradeçer por essa obra ❤️',
+    socialUrl: '',
   }
 ];
 
