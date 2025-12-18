@@ -47,6 +47,18 @@
       "description": "Large view of digital artwork by angen_luz",
       "imageUrl": "/images/assets_04.jpg",
       "imageHint": "digital art"
+    },
+    {
+      "id": "xerlok",
+      "description": "Digital artwork by xerlok",
+      "imageUrl": "/images/assets_05.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-xerlok",
+      "description": "Large view of digital artwork by xerlok",
+      "imageUrl": "/images/assets_05.jpg",
+      "imageHint": "digital art"
     }
   ]
 }
