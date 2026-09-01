@@ -83,6 +83,18 @@
       "description": "Large view of digital artwork by angen_luz",
       "imageUrl": "/images/assets_07.jpg",
       "imageHint": "digital art"
+    },
+    {
+      "id": "Eve",
+      "description": "Digital artwork by Eve",
+      "imageUrl": "/images/assets_08.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-Eve",
+      "description": "Large view of digital artwork by Eve",
+      "imageUrl": "/images/assets_08.jpg",
+      "imageHint": "digital art"
     }
   ]
 }
