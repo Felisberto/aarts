@@ -29,7 +29,7 @@ export const artists: Artist[] = [
     date: '2025-11-21',
     quote: 'Felis no dia menos afeminado',
     description: 'Feito pela luz de mim de um jeito diferente, agradeço de coração mas eu não sou um femboy 😠😂❤️',
-    socialUrl: 'https://www.tiktok.com/@angen_luz2',
+    socialUrl: 'https://www.tiktok.com/@zyel50917',
   },
   {
     id: '3',
@@ -48,7 +48,7 @@ export const artists: Artist[] = [
     date: '2025-12-15',
     quote: 'felis após receber fanart de seguidores 🩷',
     description: 'Mais uma arte feita pela luz, imparável, muito obrigado de coração, é incrível receber essa obra prima ❤️🥺',
-    socialUrl: 'https://www.tiktok.com/@angen_luz2',
+    socialUrl: 'https://www.tiktok.com/@zyel50917',
   },
   {
     id: '5',
@@ -69,6 +69,16 @@ export const artists: Artist[] = [
     quote: '',
     description: 'Uma arte lindinha feita por uma fã de Zelda 🥺',
     socialUrl: '',
+  },
+  {
+    id: '7',
+    name: 'angen_luz',
+    style: 'Digital Art',
+    imageSeed: 'angen_luz_3',
+    date: '2026-07-11',
+    quote: '',
+    description: 'Outra arte feita pelo angen ❤️ cada obra que recebo não ta escrito 🥺',
+    socialUrl: 'https://www.tiktok.com/@zyel50917',
   }
 ];
 
