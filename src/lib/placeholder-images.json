@@ -59,6 +59,18 @@
       "description": "Large view of digital artwork by xerlok",
       "imageUrl": "/images/assets_05.jpg",
       "imageHint": "digital art"
+    },
+    {
+      "id": "Leticia",
+      "description": "Digital artwork by Leticia",
+      "imageUrl": "/images/assets_06.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-Leticia",
+      "description": "Large view of digital artwork by Leticia",
+      "imageUrl": "/images/assets_06.jpg",
+      "imageHint": "digital art"
     }
   ]
 }

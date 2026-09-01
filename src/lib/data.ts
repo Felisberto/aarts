@@ -59,6 +59,16 @@ export const artists: Artist[] = [
     quote: 'Nos olhos dele, a borboleta azul vira silêncio em forma de esperança.',
     description: 'Uma arte incrível feita pelo grande xerlok, meu mano, muito obrigado, não tenho palavras para agradeçer por essa obra ❤️',
     socialUrl: 'https://www.instagram.com/ins.kevin',
+  },
+  {
+    id: '6',
+    name: 'Leticia',
+    style: 'Digital Art',
+    imageSeed: 'Leticia',
+    date: '2026-07-10',
+    quote: '',
+    description: 'Uma arte lindinha feita por uma fã de Zelda 🥺',
+    socialUrl: '',
   }
 ];
 
