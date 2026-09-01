@@ -30,7 +30,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8 pb-8">
           <div className="mb-8 text-left">
             <h2 className="text-2xl font-bold font-headline text-primary tracking-tight">
-              Gallog 
+              Gallog
             </h2>
             <Separator className="mt-2 w-full bg-primary/20 h-0.5" />
           </div>
