@@ -71,6 +71,18 @@
       "description": "Large view of digital artwork by Leticia",
       "imageUrl": "/images/assets_06.jpg",
       "imageHint": "digital art"
+    },
+    {
+      "id": "angen_luz_3",
+      "description": "Digital artwork by angen_luz",
+      "imageUrl": "/images/assets_07.jpg",
+      "imageHint": "digital art"
+    },
+    {
+      "id": "profile-angen_luz_3",
+      "description": "Large view of digital artwork by angen_luz",
+      "imageUrl": "/images/assets_07.jpg",
+      "imageHint": "digital art"
     }
   ]
 }
