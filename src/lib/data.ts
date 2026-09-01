@@ -79,6 +79,16 @@ export const artists: Artist[] = [
     quote: '',
     description: 'Outra arte feita pelo angen ❤️ cada obra que recebo não ta escrito 🥺',
     socialUrl: 'https://www.tiktok.com/@zyel50917',
+  },
+  {
+    id: '8',
+    name: '☆Eve★*☆♪~○',
+    style: 'Digital Art',
+    imageSeed: 'Eve',
+    date: '2026-07-15',
+    quote: '',
+    description: 'A Eve fazendo essa obra prima no papel que coisa absurda! ❤️❤️🥺',
+    socialUrl: '',
   }
 ];
 
